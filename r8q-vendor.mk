@@ -95,6 +95,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/lib64/camera/ois_mcu_stm32g_fw.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/ois_mcu_stm32g_fw.bin
 
 PRODUCT_PACKAGES += \
+    lib_SamsungRec_07020 \
+    librecordalive \
     K32QS_libTsAeFront \
     K32QS_libTsAfFront \
     K32QS_libTsAwbFront \
